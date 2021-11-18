@@ -104,7 +104,7 @@ Inicio
 
 Fimalgoritmo
 
-Algoritmo "Operadores_Lógicos"
+Algoritmo "Operadores_Lógicos nao = not "
 //  
 //  
 
@@ -134,7 +134,7 @@ escreval (" o resultado inverso da expressão é: ", resultado)
 
 Fimalgoritmo
 
-Algoritmo "Operador_logicos_E"
+Algoritmo "Operador_logicos_ ou = or "
 //  
 //  
 
@@ -158,4 +158,27 @@ escreval ("2° exemplo do operador lógico ou ")
 resultado <- (numero1 > numero2)   ou (numero1 > numero2)
 escreval (numero1 , " >", numero2, " e",numero1, " >", numero2, " =", resultado)
 
+ "Operador_logicos_ e = and "
+//  
+//  
+
+Var                                          // com NAO , not
+                                               // com ou , or
+                                               // com e , and
+numero1 , numero2:inteiro
+resultado: logico
+
+
+Inicio
+numero1 <- 10
+
+numero2 <- 2
+
+escreval ("1° exemplo do operador lógico e ")
+resultado <-  (numero1 < numero2) e (numero1 > numero2)
+escreval (numero1, " <", numero2, " e",numero1, " >",numero2, " =", resultado)
+escreval
+escreval ("2° exemplo do operador lógico e ")
+resultado <- (numero1 > numero2)   e (numero1 > numero2)
+escreval (numero1 , " >", numero2, " e",numero1, " >", numero2, " =", resultado)
 
