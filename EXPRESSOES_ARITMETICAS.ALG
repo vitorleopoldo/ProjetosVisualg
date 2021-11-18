@@ -50,3 +50,22 @@ Inicio
   fimpara
 
 Fimalgoritmo
+
+Algoritmo "Raiz_quadrada"
+//  .Log (expressão)
+//  .Raizq(expressão)
+//  .Quad(expressão)
+//  .Sen(expressão)
+//  .Tan(expressão)
+//  .Exp(expressão)
+Var
+ a , b : real
+
+
+Inicio
+ a <- 10
+ b <- raizq(a)
+ escreval ("o resultado é : ", b)
+
+
+Fimalgoritmo
